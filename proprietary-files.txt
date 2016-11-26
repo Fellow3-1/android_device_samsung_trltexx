@@ -1,36 +1,41 @@
-# Bluetooth firmware
-vendor/firmware/BT_FW_BCM4358A1_001.002.005.0032.0066.hcd
-vendor/firmware/bcm43569.hcd
-vendor/firmware/bcm43569A0.hcd
-vendor/firmware/bcm43569A1.hcd
-
-# GPS
-bin/gsiff_daemon
-etc/permissions/com.qualcomm.location.xml
-vendor/lib/hw/flp.default.so
-lib/libloc_api_v02.so
-vendor/lib/libgeofence.so
-vendor/lib/libizat_core.so
-vendor/lib/liblbs_core.so
-vendor/lib/liblocationservice.so
-vendor/lib/libulp2.so
-
-# NFC
-vendor/firmware/sec_s3fwrn5_firmware.bin
-
 # Qualcomm framework
+etc/permissions/com.qualcomm.location.xml
+-vendor/lib/libperipheral_client.so
+vendor/lib/libmdmdetect.so
+vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
+vendor/lib/libnetmgr.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqmi.so
 vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_helper.so
 vendor/lib/libqmi_client_qmux.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
-vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
+vendor/lib/libflp.so
+vendor/lib/libdataitems.so
+vendor/lib/liblowi_client.so
+lib/libagc_max.so
+lib/libqservice.so
+lib/libtinyxml.so
+lib/libtinyxml2.so
+lib/libqdutils.so
+lib/libjpegehw.so
+lib/libjpegdhw.so
+lib/libedmnativehelper.so
+lib/libedmnativehelperservice.so
+lib/libbt-iopdb.so
+lib/libbt-iopdb_mod.so
+lib/libbt-vendor.so
+lib/libbt-codec_aptx.so
+lib/libbt-aptX-ARM-4.2.2.so
+lib/libbt-codec_sshd.so
+lib/libshdace.so
+lib/libprotobuf-cpp-full.so
 
 # Radio
 bin/efsks
@@ -43,10 +48,9 @@ bin/rild
 bin/rmnetcli
 lib/libreference-ril.so
 lib/libril.so
+lib/librilutils.so
 lib/librmnetctl.so
 lib/libsec-ril.so
 lib/libsecnativefeature.so
 lib/libsecril-client.so
 vendor/lib/libril-qcril-hook-oem.so
-vendor/lib/libconfigdb.so
-vendor/lib/libxml.so

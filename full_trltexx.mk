@@ -23,4 +23,4 @@ PRODUCT_NAME := full_trltexx
 PRODUCT_DEVICE := trltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := trltexx
+PRODUCT_MODEL := SM-N910F
